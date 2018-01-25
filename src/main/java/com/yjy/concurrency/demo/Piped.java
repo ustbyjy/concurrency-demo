@@ -34,7 +34,7 @@ public class Piped {
             int receive = 0;
             try {
                 while ((receive = in.read()) != -1) {
-                    System.out.println((char) receive);
+                    System.out.print((char) receive);
                 }
             } catch (IOException e) {
 
